@@ -9,7 +9,7 @@
 
         public override string ToString()
         {
-            return $"Título: {Titulo}, Autor: {Autor}, AnoPublicado: {AnoPublicacao}, Preco: {Preco}";
+            return $"Título: {Titulo}, Autor: {Autor}, AnoPublicado: {AnoPublicacao}, Preco: R$ {Preco:F2}";
         }
     }
 }
